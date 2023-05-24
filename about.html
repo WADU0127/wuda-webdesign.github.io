@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>个人简历</title>
+<link rel="stylesheet" href="css/style3.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+            header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+    
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #333;
+            }
+    
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 12px 20px;
+            }
+    
+            nav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+    
+            .banner {
+                background-image: url('banner.jpg');
+                background-size: cover;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 36px;
+            }
+    
+            .container {
+                padding: 20px;
+            }
+    
+            .intro {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            .footer {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">首页</a></li>
+<li><a href="about.html">关于我</a></li>
+<li><a href="skills.html">技能</a></li>
+<li><a href="hobby.html">爱好</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="personal-info">
+<h1>个人信息</h1>
+<p>姓名：吴达</p>
+<p>性别：男</p>
+<p>年龄：20岁</p>
+<p>邮箱：wuda@example.com</p>
+<p>电话：+86 1234567890</p>
+</section>
+<section class="education">
+<h2>教育背景</h2>
+<p>2021-2024 年就读于 中南财经政法大学 大学，获得大数据管理学科管理学学位。</p>
+</section>
+<section class="skills">
+<h2>技能</h2>
+<ul>
+<li>熟练掌握 HTML、CSS 和 JavaScript</li>
+<li>熟悉 Vue.js 和 React.js 前端框架</li>
+<li>了解 Node.js 和 Express.js 后端技术</li>
+<li>熟悉 MySQL 和 MongoDB 数据库</li>
+<li>具备良好的团队协作和沟通能力</li>
+</ul>
+</section>
+<section class="projects">
+<h2>项目经验</h2>
+<h3>项目一：个人博客网站</h3>
+<p>使用 Vue.js 和 Express.js 开发了一个个人博客网站，实现了文章的发布、编辑和删除功能。</p>
+<h3>项目二：在线购物商城</h3>
+<p>参与团队开发了一个在线购物商城，负责前端页面的设计和实现，使用 React.js 和 Redux 进行状态管理。</p>
+</section>
+</main>
+
+	<footer>
+		<p>吴达的个人简历</p>
+	</footer>
+	<!-- 表单 -->
+<section class="form-section">
+	<h2>联系我</h2>
+	<form>
+		<label for="name">姓名：</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">邮箱：</label>
+		<input type="email" id="email" name="email" required>
+		<label for="message">留言：</label>
+		<textarea id="message" name="message" required></textarea>
+		<button type="submit">提交</button>
+	</form>
+</section>
+</body>
+</html>
